@@ -64,6 +64,7 @@ const HomePage = () => {
         <h1 className='font-medium text-lg text-gray-400'>Output:</h1>
         <p className='p-3 m-2 rounded-lg min-h-20 min-w-80 bg-slate-950 font-semibold text-lg'>{loading ? "Loading..." : response}</p>
       </div>
+        <p>Note: This is a practice project. Vertex AI not configured for production yet.</p>
     </div>
   )
 }
